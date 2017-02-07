@@ -5,9 +5,19 @@
 ngApp.lazy.controller('itemsCtrl', function($scope, $log, $http, $location, $routeParams, GroupFactory, ItemFactory, MenuFactory) {
     var vm = this;
     vm.isLoading = false;
+    vm.thisGroup = "";
     vm.obj = {};
     vm.allObj = [];
-    vm.allGroup = GroupFactory.query({userId: MenuFactory.getUser()._id});
+    vm.allGroup = GroupFactory.query({userId: MenuFactory.getUser()._id}, function(){
+        if ($routeParams.groupId && $routeParams.groupId != 0) {
+            vm.allGroup.forEach(v=>{
+                if ($routeParams.groupId === v._id){
+                    vm.thisGroup = v.name;
+                }
+            });
+        }
+        
+    });
 
 
     vm.save = save;
