@@ -11,3 +11,5 @@
 ### git add .
 ### git commit -m "Update from upstream"
 ### git push origin master
+
+# Openshift link: http://mymaterialnote-travelopenshift.rhcloud.com/
