@@ -1,0 +1,939 @@
+{
+  "guestbookName":"default",
+  "greetings":[
+	{
+	  "content":"1. sudo apt-get purge \"fglrx.*\"\n2. sudo rm /etc/X11/xorg.conf\n3. sudo apt-get install --reinstall xserver-xorg-core libgl1-mesa-glx:i386 libgl1-mesa-dri:i386 libgl1-mesa-glx:amd64 libgl1-mesa-dri:amd64\n4. sudo dpkg-reconfigure xserver-xorg\n5. sudo reboot",
+	  "date":"Sep 8, 2016 8:09:33 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.fluentu.com/english/blog/how-to-learn-english-at-home/",
+	  "date":"Aug 19, 2016 10:37:44 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.english-at-home.com/speaking/",
+	  "date":"Aug 19, 2016 10:19:59 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://learnenglishteens.britishcouncil.org/",
+	  "date":"Aug 19, 2016 8:08:15 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://learnenglish.britishcouncil.org/en/",
+	  "date":"Aug 19, 2016 8:07:52 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"https://play.google.com/store/apps/details?id\u003dhk.hkbc.epodcast\u0026\u0026referrer\u003dutm_campaign%3DLE%252520Website%252520-%252520Sec%252520level%252520-%252520ElementaryPodcast%26utm_medium%3Dad-analytics%26utm_content%3D4117307e-e879-4ff3-b369-f5962b3c125b%26utm_source%3Dflurry",
+	  "date":"Aug 11, 2016 1:45:03 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"English cool Audio tutorial \u003d\u003d\u003d\u003e\u003e\u003e http://learnenglish.britishcouncil.org/en/big-city-small-world",
+	  "date":"Aug 11, 2016 1:41:31 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://surfing.bg/spots/wakeboard/seasidestreet-cable-park-chernomorec.20",
+	  "date":"Jul 31, 2016 10:48:07 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Using GruntJS in a MEAN Stack Application  \u003d\u003d\u003e\u003e https://scotch.io/tutorials/using-gruntjs-in-a-mean-stack-application",
+	  "date":"Jul 27, 2016 1:53:16 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Setting Up a MEAN Stack Single Page Application \u003d\u003d\u003d\u003e\u003e  https://scotch.io/tutorials/setting-up-a-mean-stack-single-page-application",
+	  "date":"Jul 27, 2016 10:45:58 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Английски език - безплатни видео уроци за самоподготовка. \u003d\u003d\u003d\u003e http://classroom.bg/online-video-lessons/2.htm",
+	  "date":"Jul 20, 2016 7:13:08 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"MEAN LOGIN \u003d\u003d\u003d\u003e\u003e\u003e https://www.sitepoint.com/user-authentication-mean-stack/",
+	  "date":"Jul 19, 2016 8:43:48 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Easy Node Authentication: Setup and Local \u003d\u003d\u003d\u003e\u003e\u003e https://scotch.io/tutorials/easy-node-authentication-setup-and-local",
+	  "date":"Jul 19, 2016 8:31:31 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Google search - schema-list \u003d\u003e https://docs.google.com/spreadsheets/d/1Ed6RmI01rx4UdW40ciWgz2oS_Kx37_-sPi7sba_jC3w/edit?pli\u003d1#gid\u003d0",
+	  "date":"Jul 4, 2016 10:24:28 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"The JSON-LD Markup Guide To Local Business Schema  \u003d\u003e https://whitespark.ca/blog/the-json-ld-markup-guide-to-local-business-schema/",
+	  "date":"Jul 4, 2016 10:24:03 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Copy one mysql table to another  \u003d\u003e http://www.tech-recipes.com/rx/1487/copy-an-existing-mysql-table-to-a-new-table/",
+	  "date":"Jul 4, 2016 7:47:02 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"CREATE TABLE recipes_new LIKE production.recipes; INSERT recipes_new SELECT * FROM production.recipes;",
+	  "date":"Jul 4, 2016 7:46:35 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Gulp: A Web Developer\u0027s Secret Weapon for Maximizing Site Speed \u003d\u003e https://www.toptal.com/javascript/optimize-js-and-css-with-gulp?utm_content\u003dbufferb13fd\u0026utm_medium\u003dsocial\u0026utm_source\u003dfacebook.com\u0026utm_campaign\u003dbuffer",
+	  "date":"Jun 29, 2016 2:51:27 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"15 филма със заплетен сюжет и неочакван край \u003d\u003e http://www.obekti.bg/chovek/15-filma-ss-zapleten-syuzhet-i-neochakvan-kray",
+	  "date":"Jun 29, 2016 7:19:37 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://oldwinehousehristovi.appspot.com/",
+	  "date":"Jun 23, 2016 8:47:12 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"owhhwebsite@gmail.com",
+	  "date":"Jun 23, 2016 7:37:34 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"ELECTRIC WATCH VIDEO \u003d\u003e https://www.youtube.com/watch?v\u003dBZmJ0_ILmC0",
+	  "date":"Jun 17, 2016 2:16:48 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"ELECTRIC WATCH \u003d\u003e http://www.contrabanda.bg/electric-fw02-p12623/",
+	  "date":"Jun 17, 2016 2:16:30 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Mobile parallx \u003d\u003e http://matthew.wagerfield.com/parallax/",
+	  "date":"Jun 13, 2016 2:29:24 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Choose the Right Java Collection \u003d\u003e https://javatutorial.net/choose-the-right-java-collection",
+	  "date":"Jun 13, 2016 8:11:06 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Update KDE \u003d\u003d\u003d\u003e\u003e\u003e http://www.omgubuntu.co.uk/2015/04/kde-plasma-5-3-released-heres-how-to-upgrade-in-kubuntu-15-04",
+	  "date":"May 26, 2016 7:01:27 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Quick and Practical CSS Cheat Sheet \u003d\u003d\u003d\u003e\u003e\u003e https://www.toptal.com/css/css-cheat-sheet",
+	  "date":"May 25, 2016 7:21:10 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"javascript-es6-cheat-sheet  \u003d\u003d\u003d\u003e\u003e\u003e https://www.toptal.com/javascript/javascript-es6-cheat-sheet",
+	  "date":"May 25, 2016 7:20:33 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"spring-requestmapping \u003d\u003d\u003e http://www.baeldung.com/spring-requestmapping",
+	  "date":"May 20, 2016 3:16:55 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Bootstrap a Web Application with Spring 4 \u003d\u003d\u003e\u003e http://www.baeldung.com/2011/10/20/bootstraping-a-web-application-with-spring-3-1-and-java-based-configuration-part-1/?utm_source\u003demail-newsletter\u0026utm_medium\u003demail\u0026utm_campaign\u003dauto_16_spring_mvc\u0026tl_inbound\u003d1\u0026tl_target_all\u003d1\u0026tl_period_type\u003d3",
+	  "date":"May 20, 2016 2:42:11 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Design patterns \u003d\u003d\u003e http://www.tutorialspoint.com/design_pattern/data_access_object_pattern.htm",
+	  "date":"May 16, 2016 4:07:38 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.tutorialspoint.com/spring/index.htm",
+	  "date":"May 15, 2016 3:54:45 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"SPRING REST \u003d\u003e http://getj2ee.over-blog.com/article-tutorial-rest-with-spring-mvc-and-maven-97283997.html",
+	  "date":"May 11, 2016 2:43:11 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://benefitsystems.bg/locations/",
+	  "date":"May 3, 2016 8:12:00 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://sportpass.bg/",
+	  "date":"May 3, 2016 8:04:10 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://sportpass.bg/",
+	  "date":"May 3, 2016 8:04:10 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"online ocr convertor  \u003d\u003d\u003e\u003e http://www.onlineocr.net/",
+	  "date":"Apr 22, 2016 6:12:18 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Spring Hibernate Integration Example Tutorial  2 parts\u003d\u003e http://www.codejava.net/frameworks/spring/spring-4-and-hibernate-4-integration-tutorial-part-1-xml-configuration",
+	  "date":"Apr 20, 2016 2:52:37 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Spring Hibernate Integration Example Tutorial  \u003d\u003e http://www.journaldev.com/3524/spring-hibernate-integration-example-tutorial-spring-4-hibernate-3-and-hibernate-4",
+	  "date":"Apr 20, 2016 2:51:56 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://codepen.io/albertomarin/full/RPRWaR/",
+	  "date":"Apr 14, 2016 3:15:15 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://materialtodo.appspot.com/#/note_add_edit",
+	  "date":"Apr 12, 2016 8:17:49 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"1. http://www.silabg.com/bg/14765-HAYA-LABS-Vitamin-A-10-000-IU-100-Softgels.html\n2. http://www.silabg.com/bg/16132-HAYA-LABS-Vitamin-E-400-IU-100-Softgels.html",
+	  "date":"Apr 11, 2016 5:01:37 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"https://almsaeedstudio.com/blog/10-Free-Responsive-Bootstrap-Templates-For-2016",
+	  "date":"Apr 11, 2016 8:14:15 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"\u003cscript\u003ewindow.jQuery || document.write(\u0027\u003cscript src\u003d\"../../assets/js/vendor/jquery.min.js\"\u003e\u003c\\/script\u003e\u0027)\u003c/script\u003e",
+	  "date":"Apr 11, 2016 8:04:14 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"material design framework \u003d\u003d\u003e\u003e http://materializecss.com/getting-started.html",
+	  "date":"Apr 5, 2016 10:50:30 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"google font cool example \u003d\u003d\u003e\u003e http://tobiasahlin.com/typesource/",
+	  "date":"Apr 5, 2016 10:38:49 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"CSS 3 animated loader \u003d\u003e http://tobiasahlin.com/spinkit/",
+	  "date":"Apr 5, 2016 10:37:00 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"https://static.pexels.com/photos/64769/pexels-photo-64769.jpeg",
+	  "date":"Apr 5, 2016 10:25:49 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Awesome Product Shots.Create great looking Product Mockups for free with Frame \u003d\u003d\u003e\u003e http://frame.lab25.co.uk/",
+	  "date":"Apr 5, 2016 10:25:14 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Free image (Best free stock photos in one place) \u003d\u003d\u003e\u003e www.pexels.com",
+	  "date":"Apr 5, 2016 10:23:02 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://webdesigntutsplus.s3.amazonaws.com/tuts/338_parallax/src/index.html",
+	  "date":"Mar 27, 2016 1:09:35 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"cool icon  site \u003d\u003d\u003d\u003e\u003e\u003e https://it.fotolia.com/id/62026697?by\u003dserie",
+	  "date":"Mar 26, 2016 3:19:16 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"parallax mobile example \u003d\u003d\u003e\u003e http://markdalgleish.com/2012/10/mobile-parallax-with-stellar-js/",
+	  "date":"Mar 25, 2016 9:53:23 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://bootstrapious.com/landing-pages",
+	  "date":"Mar 24, 2016 4:37:29 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"CSS for developers \u003d\u003d\u003e\u003e http://elijahmanor.com/talks/css-for-devs/#/",
+	  "date":"Mar 22, 2016 11:36:33 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"https://www.booking.com/affiliate-program/index.bg.html?aid\u003d344316;label\u003dmetatrivago-hotel-254389_xqdz-cebcfe80e37b7cdc239ecaa887f811e1_los-1_nrm-1_gstadt-2_gstkid-0_curr-bgn_lang-bg;sid\u003dfb48e4857a58df5ac9ded4f6526af7f2;dcid\u003d1   Booking.com check this out",
+	  "date":"Mar 14, 2016 3:15:22 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"bootstrap e shop templates \u003d\u003e http://www.cssauthor.com/e-commerce-website-templates/",
+	  "date":"Mar 12, 2016 2:02:43 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"bootstrap e shop templates \u003d\u003e https://www.freshdesignweb.com/free-ecommerce-website-templates/",
+	  "date":"Mar 12, 2016 1:52:53 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"ВИЛА ИБЪР",
+	  "date":"Mar 11, 2016 8:26:02 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.trivago.bg/?iPathId\u003d88968\u0026bDispMoreFilter\u003dfalse\u0026aDateRange%5Barr%5D\u003d2016-04-13\u0026aDateRange%5Bdep%5D\u003d2016-04-14\u0026aCategoryRange\u003d0%2C1%2C2%2C3%2C4%2C5\u0026iRoomType\u003d7\u0026sOrderBy\u003drelevance%20desc\u0026aPartner\u003d\u0026aOverallLiking\u003d1%2C2%2C3%2C4%2C5\u0026iOffset\u003d0\u0026iLimit\u003d25\u0026iIncludeAll\u003d0\u0026bTopDealsOnly\u003dfalse\u0026iViewType\u003d0\u0026aPriceRange%5Bfrom%5D\u003d0\u0026aPriceRange%5Bto%5D\u003d0\u0026aGeoCode%5Blng%5D\u003d23.605536\u0026aGeoCode%5Blat%5D\u003d42.270641\u0026bIsSeoPage\u003dfalse\u0026mgo\u003dfalse\u0026th\u003dfalse\u0026aHotelTestClassifier\u003d\u0026bSharedRooms\u003dfalse\u0026bIsSitemap\u003dfalse\u0026rp\u003d\u0026sSemKeywordInfo\u003d\u0026cpt\u003d8896803\u0026iFilterTab\u003d0\u0026",
+	  "date":"Mar 11, 2016 2:57:37 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://grabo.bg/pochivka-v-borovetz-0gtbknm",
+	  "date":"Mar 11, 2016 2:17:04 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"@Entity\npublic class Employee {\n    @Id String name;\n    List\u003cKey\u003cEmployee\u003e\u003e subordinates \u003d new ArrayList\u003cKey\u003cEmployee\u003e\u003e();\n}",
+	  "date":"Mar 7, 2016 12:16:04 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"@Entity\npublic class Employee {\n    @Id String name;\n    List\u003cKey\u003cEmployee\u003e\u003e subordinates \u003d new ArrayList\u003cKey\u003cEmployee\u003e\u003e();\n}",
+	  "date":"Mar 7, 2016 12:16:04 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Java FB Login \u003d\u003d\u003d\u003e\u003e http://javapapers.com/java/java-facebook-login-with-oauth-authentication/",
+	  "date":"Mar 1, 2016 4:37:14 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Facebook authentication in your AngularJS web app \u003d\u003d\u003d\u003e\u003e\u003e http://blog.brunoscopelliti.com/facebook-authentication-in-your-angularjs-web-app/",
+	  "date":"Mar 1, 2016 2:36:07 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Deal with users authentication in an AngularJS web app \u003d\u003d\u003d\u003e\u003e\u003e http://blog.brunoscopelliti.com/deal-with-users-authentication-in-an-angularjs-web-app/",
+	  "date":"Mar 1, 2016 2:35:49 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Памет EMTEC EKMSDM16GB60XHC MICRO SD 16GB",
+	  "date":"Feb 29, 2016 4:38:11 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"torrent for angular 2  \u003d\u003e\u003e http://www.astorrents.com/usearch/?q\u003dangular+2",
+	  "date":"Feb 29, 2016 9:31:25 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://blog.crazyegg.com/2012/07/11/website-color-palettes/",
+	  "date":"Feb 17, 2016 4:38:37 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Card UI Design  \u003d\u003e http://codepen.io/anon/pen/GoLrzP",
+	  "date":"Feb 17, 2016 9:21:59 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Pure CSS TV Series Widget Thingy \u003d\u003e http://codepen.io/jcoulterdesign/pen/dGwzqX",
+	  "date":"Feb 17, 2016 9:19:34 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Material design round mask menu (pure css) \u003d\u003e http://codepen.io/sorinbotirla/pen/QyoYgx",
+	  "date":"Feb 17, 2016 9:15:12 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Cool radio \u003d\u003e http://codepen.io/ispal/pen/jWJabg",
+	  "date":"Feb 17, 2016 9:12:36 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"loader \u003d\u003e http://codepen.io/tstoik/pen/Ywgxqb",
+	  "date":"Feb 17, 2016 9:00:15 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Full screen background cover page \u003d\u003e http://bootsnipp.com/snippets/featured/full-screen-background-cover-page",
+	  "date":"Feb 17, 2016 8:54:44 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Carousel layout \u003d\u003e http://bootsnipp.com/snippets/23gd2",
+	  "date":"Feb 17, 2016 8:52:34 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Bootstrap 3.2.0 card snipet  \u003d\u003e http://bootsnipp.com/snippets/P3mAa",
+	  "date":"Feb 17, 2016 8:40:45 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Bootstrap 3.3 card snipet \u003d\u003e http://bootsnipp.com/snippets/featured/material-cards",
+	  "date":"Feb 17, 2016 8:37:07 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://weblogs.asp.net/dwahlin/building-an-angularjs-modal-service",
+	  "date":"Feb 12, 2016 2:54:37 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Modal bootstrap img view \u003d\u003e http://jsfiddle.net/2ve4hbmm/",
+	  "date":"Feb 8, 2016 12:59:54 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"GAE HTTP DELETE REQUEST \u003d\u003d\u003e http://stackoverflow.com/questions/3373657/app-engine-400-your-client-has-issued-a-malformed-or-illegal-request",
+	  "date":"Feb 8, 2016 8:28:46 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"MAVEN REMOTE CATALOG URL \u003d\u003e http://repo1.maven.org/maven2/archetype-catalog.xml",
+	  "date":"Feb 5, 2016 10:52:25 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Upload image to GAE \u003d\u003e http://stackoverflow.com/questions/1513603/how-to-upload-and-store-an-image-with-google-app-engine-java",
+	  "date":"Feb 2, 2016 9:52:47 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Adobe color \u003d\u003e https://color.adobe.com/create/color-wheel",
+	  "date":"Jan 28, 2016 11:04:30 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"COOL TUTORIALS UDACITY \u003d\u003e\u003e https://www.udacity.com/course/viewer#!/c-ud862/l-4222899149/m-4789788616",
+	  "date":"Jan 25, 2016 11:56:53 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"intelij server Actiovation \u003d\u003d\u003e\u003e http://idea.lanyus.com",
+	  "date":"Jan 7, 2016 4:30:28 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"@Autowired\n@Qualifier(\"authenticationManager\")\nprotected AuthenticationManager authenticationManager;",
+	  "date":"Dec 16, 2015 4:36:45 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"CASIO EDIFICE\nCHRONOGRAPH\nEF-552-1AV",
+	  "date":"Dec 9, 2015 3:15:11 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"georgeGeorgiev1 \u003c\u003d twitter for jrebel",
+	  "date":"Dec 8, 2015 3:12:01 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"jrebel activation code \u003d\u003e j79iCckeNVRsHCyJBi2LjzS04gfTKHGlfwp8wsKpHnpIdzTCjTEdfzbRNqXDbFzbpxvEY6RyE+3fSGLCa3CO9xDbG2ad+QahExO/jBXmK/IIetc95QcUEDt7A5BFZlGp/oUPUA\u003d\u003d",
+	  "date":"Dec 8, 2015 3:06:53 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"DEVELOPING A WEB APPLICATION WITH SPRING BOOT, ANGULARJS AND JAVA 8  \u003d\u003e http://info.michael-simons.eu/2014/02/20/developing-a-web-application-with-spring-boot-angularjs-and-java-8/",
+	  "date":"Sep 17, 2015 3:14:17 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"!!!!!!!!!!!   Spring 4 WEB SOCKET \u003d\u003d\u003e http://www.concretepage.com/spring-4/spring-4-websocket-sockjs-stomp-tomcat-example",
+	  "date":"Sep 17, 2015 10:35:25 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Using WebSockets with Spring, AngularJS and SockJS \u003d\u003d\u003d\u003e\u003e\u003e http://g00glen00b.be/spring-angular-sockjs/",
+	  "date":"Sep 17, 2015 10:23:12 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"SPRING WEB SOCKET \u003d\u003e https://spring.io/guides/gs/messaging-stomp-websocket/",
+	  "date":"Sep 16, 2015 3:18:52 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.obekti.bg/tehno/19071-%D0%98%D0%B7%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D0%BD%D0%BE-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%B8-%D1%81%D0%B8%D0%BD%D0%B5%D0%BC%D0%B0%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B8-%D0%BD%D0%B0-%D1%81%D0%B2%D0%B5%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE-%D0%BD%D0%B0%D1%81",
+	  "date":"Sep 15, 2015 2:15:27 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.obekti.bg/tehno/19071-%D0%98%D0%B7%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D0%BD%D0%BE-%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D0%B8-%D1%81%D0%B8%D0%BD%D0%B5%D0%BC%D0%B0%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B8-%D0%BD%D0%B0-%D1%81%D0%B2%D0%B5%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE-%D0%BD%D0%B0%D1%81",
+	  "date":"Sep 15, 2015 2:15:26 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"ENG \u003d\u003d\u003e http://www.ecprospect.com/",
+	  "date":"Sep 15, 2015 11:31:28 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"ENG AMP \u003d\u003d\u003e\u003e http://www.maximumbg.com/vidove-kursove/drugi-uslugi/az-moga-poveche",
+	  "date":"Sep 15, 2015 11:21:30 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"ENG \u003d\u003d\u003e\u003e http://www.elc.bg/razgovoren-angliiski/",
+	  "date":"Sep 15, 2015 11:06:29 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.bossable.com/2087/angularjs-expressjs-resource/",
+	  "date":"Sep 10, 2015 1:29:07 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Angular material \u003d\u003d\u003e\u003e https://www.youtube.com/watch?v\u003dSmWegrk5qDk\u0026list\u003dPL6rhBJX0L3TVVBWDOtUgM2zjfG3sXr3yx\u0026index\u003d1",
+	  "date":"Sep 10, 2015 1:21:43 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Compile typescript \u003d\u003d\u003e\u003e //tsc --watch -m commonjs -t es5 --emitDecoratorMetadata NameOfFileToCompile.ts",
+	  "date":"Sep 9, 2015 12:09:03 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"fb comments plugin \u003d\u003d\u003d\u003e\u003e\u003e https://developers.facebook.com/docs/plugins/comments#configurator",
+	  "date":"Sep 4, 2015 12:14:30 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://my-angular-directives-1054.appspot.com/#/cityAutocomplete",
+	  "date":"Aug 31, 2015 3:22:47 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.english-at-home.com/",
+	  "date":"Aug 31, 2015 8:01:21 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.englisch-hilfen.de/en/",
+	  "date":"Aug 31, 2015 7:54:23 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.learnenglish.de/grammar/tensetext.html",
+	  "date":"Aug 31, 2015 7:36:59 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.learn-english-online.org/",
+	  "date":"Aug 31, 2015 7:29:12 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.goethe-verlag.com/book2/BG/BGEN/BGEN002.HTM",
+	  "date":"Aug 31, 2015 7:18:11 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Oracle 12c Installation on Debian Wheezy  \u003d\u003d\u003d\u003e\u003e\u003e http://www.fairtec.at/it-blog-mainmenu-16/169-oracle-12c-installation-on-debian-wheezy",
+	  "date":"Aug 26, 2015 12:56:29 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"google-chrome --allow-file-access-from-files",
+	  "date":"Aug 24, 2015 1:57:55 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Bower \u003d\u003e create package.json AND run it with \u003d\u003d\u003d\u003e\u003e npm install",
+	  "date":"Aug 24, 2015 8:34:35 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"How to dual-boot Debian 6 and Windows 7  \u003d\u003d\u003e\u003e http://linuxbsdos.com/2011/02/17/how-to-dual-boot-debian-6-and-windows-7/",
+	  "date":"Aug 21, 2015 10:37:55 AM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"----- BEGIN LICENSE -----\nDGTice\nSingle User License\nEA7E-852426\n762BFCAA DE14AF4B 6CE57CCE 3B19DC47\n97E8D5E8 E1DEBC23 B861C0EB 86EA5054\n34099491 5EED86DF F4592621 C0259382\n1EA4D940 CB000137 1EB4E4D3 E16A97A5\n03182786 1226C329 A07E4AC7 885770BF\nBA6D3C41 A3EAAA8D C1772BC6 C68C20B0\nB6A85DE9 B4510974 99AF4633 189673C9\nFA0373AE 386191AC 5D03F69F 2E5E1F80\n------ END LICENSE ------",
+	  "date":"Aug 14, 2015 12:00:53 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"tilt-shift-photoshop-tutorial-how-to-make-fake-miniature-scenes \u003d\u003d\u003d\u003e\u003e\u003e\u003e http://visualphotoguide.com/tilt-shift-photoshop-tutorial-how-to-make-fake-miniature-scenes/",
+	  "date":"Jul 14, 2015 8:43:46 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"bootstrap template \u003d\u003d\u003e http://html5up.net/",
+	  "date":"Jul 13, 2015 10:58:43 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Add to git \u003d\u003e https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/",
+	  "date":"Jun 1, 2015 2:44:07 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.jpassion.com/portal/",
+	  "date":"May 28, 2015 6:31:27 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"OPEN SHIFT NODE JS \u003d\u003d\u003d\u003e\u003e https://blog.openshift.com/set-up-nodejs-mongodb-and-express-on-free-spatial-web-hosting/",
+	  "date":"May 28, 2015 2:20:01 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://askubuntu.com/questions/151253/removing-grub-from-windows-system-after-uninstalling-ubuntu-from-windows-7",
+	  "date":"May 27, 2015 12:53:12 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"You need Windows 7 installation disk, boot it, choose repair option when you are asked to menu.\n\nIt will check automatically for start up problems. Let it check it.\n\nIt will not find any problem with start up.\nIt will allow to choose options. Choose command prompt.\nIn cmd you have to type just two following commands and grub will be removed.\nbootrec/fixmbr\nbootrec/fixboot\nClose cmd and restart your machine.",
+	  "date":"May 27, 2015 12:53:01 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"You need Windows 7 installation disk, boot it, choose repair option when you are asked to menu.\n\nIt will check automatically for start up problems. Let it check it.\n\nIt will not find any problem with start up.\nIt will allow to choose options. Choose command prompt.\nIn cmd you have to type just two following commands and grub will be removed.\nbootrec/fixmbr\nbootrec/fixboot\nClose cmd and restart your machine.",
+	  "date":"May 27, 2015 12:52:43 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"cooll stuff \u003d\u003d\u003d\u003d\u003d\u003e\u003e\u003e\u003e http://tympanus.net/codrops/",
+	  "date":"May 20, 2015 1:04:52 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Appearance for search engine \u003d\u003d\u003d\u003d\u003e https://developers.google.com/structured-data/",
+	  "date":"Apr 3, 2015 11:59:51 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Expert ES6 Online tutorials  \u003d\u003d\u003e\u003e http://tagtree.tv/courses/expert-es6",
+	  "date":"Mar 31, 2015 3:30:09 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"GAE ANDROID EXAMPLE \u003d\u003d\u003e\u003e https://cloud.google.com/developers/articles/how-to-build-mobile-app-with-app-engine-backend-tutorial/",
+	  "date":"Mar 21, 2015 12:11:13 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Review \u003d\u003e http://www.anandtech.com/show/5550/dell-u2412m-16-10-ips-without-breaking-the-bank",
+	  "date":"Mar 21, 2015 8:35:01 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.rockpapershotgun.com/2015/02/05/best-monitor-for-gaming/",
+	  "date":"Mar 20, 2015 4:37:03 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://toptengamer.hubpages.com/hub/Top-IPS-Gaming-Monitor-Responsiveness",
+	  "date":"Mar 20, 2015 4:31:25 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Монитор DELL U2412M IPS",
+	  "date":"Mar 16, 2015 2:02:18 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Монитор DELL U2414H IPS",
+	  "date":"Mar 16, 2015 1:49:30 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Inversion of Control Containers and the Dependency Injection pattern \u003d\u003d\u003d\u003e\u003e\u003e http://martinfowler.com/articles/injection.html",
+	  "date":"Feb 4, 2015 12:23:21 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Cool java example \u003d\u003d\u003e\u003e http://source.lishman.com/",
+	  "date":"Feb 3, 2015 9:39:35 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Springdata mongodb example \u003d\u003d\u003d\u003e http://source.lishman.com/tutorials/2029/mongodb/spring-data-mongodb",
+	  "date":"Feb 3, 2015 7:49:30 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Spring Boot example \u003d\u003d\u003e http://bits-and-kites.blogspot.de/2014/01/spring-boot-example.html",
+	  "date":"Jan 24, 2015 8:23:22 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"SOCKET2 \u003d\u003e http://www.binarytides.com/java-socket-programming-tutorial/",
+	  "date":"Jan 22, 2015 3:59:53 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"SOCKET \u003d\u003e http://www.javaworld.com/article/2077322/core-java/core-java-sockets-programming-in-java-a-tutorial.html?null",
+	  "date":"Jan 22, 2015 3:33:38 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.ng-newsletter.com/posts/chrome-apps-on-angular.html",
+	  "date":"Jan 14, 2015 2:16:37 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"singleton mongodb and morpha class \u003d\u003d\u003d\u003e\u003e\u003e http://www.wegtam.net/article/use-wrapper-class-and-create-one-single-mongoclient-your-java-application",
+	  "date":"Nov 29, 2014 6:44:42 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"MongoDB and Moprphia \u003d\u003d\u003e http://architects.dzone.com/articles/using-morphia-map-java-objects",
+	  "date":"Nov 28, 2014 11:26:10 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Angular RESOURCE example \u003d\u003d\u003d\u003e\u003e\u003e http://java.dzone.com/articles/angularjs-single-page-app",
+	  "date":"Nov 28, 2014 9:35:11 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"CRUD Using Spring MVC 4.0 RESTful Web Services and AngularJS \u003d\u003d\u003d\u003e\u003e\u003e http://java.dzone.com/articles/crud-using-spring-mvc-40",
+	  "date":"Nov 25, 2014 8:41:03 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Install Java 8 \u003d\u003d\u003d\u003e\u003e\u003e http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/",
+	  "date":"Nov 25, 2014 8:32:43 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"bulgarian phonetic for kubuntu  \u003d\u003d\u003e\u003e sudo dpkg-reconfigure keyboard-configuration",
+	  "date":"Nov 18, 2014 6:46:08 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Edit file in kubuntu with sudo priviledge and with  kate editor \u003d\u003e kdesudo kate /home/settings.pl",
+	  "date":"Nov 11, 2014 7:35:05 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Lambdas \u003d\u003e http://www.javacodegeeks.com/2014/05/java-8-features-tutorial.html",
+	  "date":"Nov 11, 2014 1:52:42 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"Lambdas coreservlets \u003d\u003e http://www.coreservlets.com/java-8-tutorial/#Tutorial-Intro",
+	  "date":"Nov 11, 2014 1:28:14 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"Lambdas \u003d\u003e http://www.developer.com/java/start-using-java-lambda-expressions.html",
+	  "date":"Nov 11, 2014 1:16:56 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.programming-free.com/2014/07/crud-springmvc-restful-webservices-angularjs.html",
+	  "date":"Oct 27, 2014 3:34:17 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"MDB \u003d\u003d\u003e http://docs.mongodb.org/ecosystem/tutorial/use-java-dbobject-to-perform-saves/",
+	  "date":"Sep 18, 2014 3:26:15 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://www.journaldev.com/4011/mongodb-java-servlet-web-application-example-tutorial",
+	  "date":"Sep 18, 2014 3:18:23 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"http://onehungrymind.com/angularjs-phoenix-meetup-2012/",
+	  "date":"Sep 5, 2014 3:28:08 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"MYSQL DUMP ****************\nssh and execute :\nmysqldump -u asterix -p core store2_params \u003e store2_params_dump.sql\nThe file appear in current directory",
+	  "date":"Sep 2, 2014 8:49:51 AM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"photohunt with angular js \u003d\u003d\u003ehttps://developers.google.com/+/photohunt/java",
+	  "date":"Aug 20, 2014 7:20:35 PM",
+	  "author":"georg3Georgiev@gmail.com"
+	},
+	{
+	  "content":"GoogleCloudPlatform/appengine-angular-guestbook-java  \u003d\u003d\u003e\u003e  https://github.com/GoogleCloudPlatform/appengine-angular-guestbook-java",
+	  "date":"Aug 20, 2014 3:20:28 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"http://seanhess.github.io/2013/10/14/angularjs-directive-design.html",
+	  "date":"Aug 20, 2014 2:24:14 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"http://java.dzone.com/articles/mongodb-30-minutes-draft",
+	  "date":"Aug 20, 2014 2:24:08 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"NG DIRECTIVE \u003d\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e http://www.sitepoint.com/practical-guide-angularjs-directives/",
+	  "date":"Aug 20, 2014 2:24:00 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"http://stackoverflow.com/questions/18880737/how-do-i-use-rootscope-in-angular-to-store-variables",
+	  "date":"Aug 20, 2014 2:23:52 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"install node.js linux \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003e\u003e\u003e\u003e\u003e\u003e\u003ehttp://www.youtube.com/watch?v\u003dDdDebDdFsHU",
+	  "date":"Aug 20, 2014 2:23:42 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"http://www.onlineprogrammingbooks.com/developing-modern-mobile-web-apps/",
+	  "date":"Aug 20, 2014 2:23:37 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"http://ankurthetechie.blogspot.com/2013/09/final-exam-answers-with-explanation-for.html",
+	  "date":"Aug 20, 2014 2:23:28 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"tp://stackoverflow.com/questions/16803560/access-element-in-mongo-array-in-java",
+	  "date":"Aug 20, 2014 2:23:03 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"https://www.tumblr.com/register/follow/mongodb-education",
+	  "date":"Aug 20, 2014 2:22:38 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"SPARK --------\u003e http://www.taywils.me/2013/11/05/javasparkframeworktutorial.html",
+	  "date":"Aug 20, 2014 2:22:31 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"http://www.befundoo.com/university/tutorials/angularjs-directives-tutorial/",
+	  "date":"Aug 20, 2014 2:22:17 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"Responsive design Enabling responsive features Turn on responsive CSS in your project by including the proper meta tag and additional stylesheet within the head of your document. If you\u0027ve compiled Bootstrap from the Customize page, you need only ...",
+	  "date":"Aug 20, 2014 2:22:01 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"Star directive \u003d\u003d\u003d\u003d\u003e http://www.befundoo.com/university/tutorials/angularjs-directives-tutorial/",
+	  "date":"Aug 20, 2014 2:21:51 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"MONGO crud explanation \u003d\u003d\u003e\u003e http://scriptogr.am/shiv/post/mongodb-java-driver",
+	  "date":"Aug 20, 2014 2:21:45 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"MONGO $IN EXAMPLE \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003e http://stackoverflow.com/questions/11650970/mongodb-java-finding-objects-in-mongo-using-querybuilder-in-operator-returns-n",
+	  "date":"Aug 20, 2014 2:21:38 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"NODE JS MEAN \u003d\u003d\u003d\u003d\u003d\u003d\u003e\u003e\u003e\u003e http://scotch.io/tutorials/javascript/creating-a-single-page-todo-app-with-node-and-angular",
+	  "date":"Aug 20, 2014 2:21:30 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"Console in windows \u003d\u003d\u003d\u003d\u003e\u003e\u003e http://scotch.io/bar-talk/get-a-functional-and-sleek-console-in-windows",
+	  "date":"Aug 20, 2014 2:21:23 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"Free Ebooks for Designers and Developers \u003d\u003d\u003e  http://speckyboy.com/2013/06/10/free-ebooks-for-designers-and-developers/",
+	  "date":"Aug 20, 2014 2:21:08 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"NG DiRECTIVE : \u003cbr /\u003ehttp://www.ng-newsletter.com/posts/directives.html",
+	  "date":"Aug 20, 2014 2:20:52 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"ANGULAR OPEN WEATHER MAP :  https://github.com/atufkas/angular-openweather-app",
+	  "date":"Aug 20, 2014 2:20:40 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"NG DiRECTIVE : http://www.ng-newsletter.com/posts/directives.html",
+	  "date":"Aug 20, 2014 2:20:31 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"1. http://andyshora.com/promises-angularjs-explained-as-cartoon.html  2. http://www.thinkster.io/pick/SoeujAQBP3/angularjs-promises",
+	  "date":"Aug 20, 2014 2:20:17 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"http://docs.spring.io/spring/docs/3.1.0.M2/spring-framework-reference/pdf/spring-framework-reference.pdf    SPRING PDF DOC",
+	  "date":"Aug 20, 2014 2:20:04 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"http://docs.spring.io/spring/docs/3.1.0.M2/spring-framework-reference/htmlsingle/    SINGLE SPRING DOCUMENTATION",
+	  "date":"Aug 20, 2014 2:19:56 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"http://javarevisited.blogspot.com/2013/03/5-good-books-to-learn-spring-framework-mvc-java-programmer.html",
+	  "date":"Aug 20, 2014 2:19:48 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"https://coderwall.com/p/y0zkiw  ANG ORGANIZATION",
+	  "date":"Aug 20, 2014 2:19:28 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"/opt/eclipse/eclipse -clean \u0026",
+	  "date":"Aug 20, 2014 2:19:19 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"500 mb mongodb free https://mongolab.com/signup/",
+	  "date":"Aug 20, 2014 1:48:59 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"INNSTALL MAVEN 3.2.2 \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003e 1wget http://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.2.2/binaries/apache-maven-3.2.2-bin.tar.gz 2. tar -zxf apache-maven-3.2.2-bin.tar.gz /tmp/ 3. ln -s /tmp/apache-maven-3.2.2/bin/mvn /usr/local/bin/mvn",
+	  "date":"Aug 20, 2014 1:48:51 PM",
+	  "author":"g.georgiev@antipodes.bg"
+	},
+	{
+	  "content":"Link to INNSTALL MAVEN 3.2.2 \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003e http://askubuntu.com/questions/420281/how-to-update-maven-3-0-4-3-1-1",
+	  "date":"Aug 20, 2014 1:48:34 PM",
+	  "author":"an anonymous user"
+	},
+	{
+	  "content":"GAE CONSOLE \u003d\u003d\u003e\u003e https://console.developers.google.com/project",
+	  "date":"Aug 20, 2014 1:48:25 PM",
+	  "author":"an anonymous user"
+	}
+  ],
+  "userServiceInfo":{
+	"loginUrl":"https://www.google.com/accounts/ServiceLogin?service\u003dah\u0026passive\u003dtrue\u0026continue\u003dhttps://appengine.google.com/_ah/conflogin%3Fcontinue%3Dhttps://gae-angular-note.appspot.com/\u0026ltmpl\u003dgm\u0026shdf\u003dChwLEgZhaG5hbWUaEGdhZS1hbmd1bGFyLW5vdGUMEgJhaCIUKuXtBkgVw7CpCnPGC6h00VSrzTYoATIU6YOTj2jMbhJA5QfGEa_-3MXqamY",
+	"logoutUrl":"https://gae-angular-note.appspot.com/_ah/logout?continue\u003dhttps://www.google.com/accounts/Logout%3Fcontinue%3Dhttps://appengine.google.com/_ah/logout%253Fcontinue%253Dhttps://gae-angular-note.appspot.com/%26service%3Dah"
+  }
+}

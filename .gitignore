@@ -1,0 +1,6 @@
+.idea
+.idea/*
+node_modules
+node_modules/*
+public/app_old/directives/
+public/bower_components/materialize/test/

@@ -1,0 +1,25 @@
+{
+  "name": "material-note",
+  "version": "1.0.0",
+  "homepage": "https://github.com/giopeto/Gifts",
+  "authors": [
+    "giopeto <giopeto0@yahoo.com>"
+  ],
+  "description": "material-note",
+  "main": "index.ejs",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.8",
+    "angular-route": "~1.5.8",
+    "angular-resource": "~1.5.8",
+    "materialize": "latest",
+    "requirejs": "~2.1.20"
+  }
+}

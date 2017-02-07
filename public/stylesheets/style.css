@@ -1,0 +1,67 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #fff;
+}
+
+main {
+  flex: 1 0 auto;
+}
+.full {
+  /*height: 50vh;
+  width: 100vh;*/
+
+  background-image: url("../images/pexels-photo-64776.jpeg");
+  /*background-image: url("../images/coffee-cup-desk-pen.jpg");
+
+  background-image: url("../images/people-woman-coffee-meeting.jpg");*/
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.h30 {
+  height: 30vh;
+}
+.h20 {
+  height: 20vh;
+}
+.mh40 {
+  min-height: 40vh;
+}
+footer.page-footer {
+  margin-top:0px;
+}
+/*
+.input-field input[type=date]:focus + label,
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=password]:focus + label {
+  color: #e91e63;
+}
+
+.input-field input[type=date]:focus,
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=password]:focus {
+  border-bottom: 2px solid #e91e63;
+  box-shadow: none;
+}*/
