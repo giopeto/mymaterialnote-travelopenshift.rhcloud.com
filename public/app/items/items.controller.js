@@ -50,7 +50,7 @@ ngApp.lazy.controller('itemsCtrl', function($scope, $log, $http, $location, $rou
                 getQueryString[k] = args.filter[k];
             });
         }
-        $log.log(getQueryString);
+        
         vm.allObj = ItemFactory.query(getQueryString, function() {
             vm.obj._group = MenuFactory.getGroupId();
             changeLoadingState();

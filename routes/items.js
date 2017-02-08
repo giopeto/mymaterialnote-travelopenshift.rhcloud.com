@@ -14,7 +14,7 @@ router.get('/items', function(req, res, next) {
         queryHash._group =groupId;
     }
     if (name) {
-        queryHash.name = name;
+        queryHash.name = new RegExp(name, "i");
     }
     Items.find(queryHash).sort('-updatedAt').populate("_group").exec(function(err, data) {
         if (err)
