@@ -18,6 +18,7 @@ body {
 	min-height: 100vh;
 	flex-direction: column;
 	background: #fff;
+	font-size: 1.2rem;
 }
 
 main {
@@ -46,6 +47,10 @@ main {
 }
 .mh40 {
 	min-height: 40vh;
+}
+.description_link{
+	color: #1de9b6;
+	text-decoration: underline;
 }
 footer.page-footer {
 	margin-top:0px;

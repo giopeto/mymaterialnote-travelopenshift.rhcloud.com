@@ -1,5 +1,5 @@
 //Define an angular module for our app
-var ngApp = angular.module('ngApp', ['ngRoute', 'ngResource']);
+var ngApp = angular.module('ngApp', ['ngRoute', 'ngResource', 'ngSanitize']);
 
 ngApp.config(function ($controllerProvider, $compileProvider, $filterProvider, $provide, $routeProvider, $httpProvider, $locationProvider) {
 	

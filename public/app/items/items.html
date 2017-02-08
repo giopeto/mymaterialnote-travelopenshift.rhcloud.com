@@ -31,7 +31,9 @@
 				<p style="word-wrap: break-word">{{row.name}}</p>
 			</div>
 			<div class="collapsible-body teal lighten-1">
-				<p style="word-wrap: break-word">{{row.description}}</p>
+				<!-- <p style="word-wrap: break-word">{{row.description}}</p> -->
+				<p style="word-wrap: break-word" ng-bind-html="row.description"></p>
+
 				<p>{{row._group.name}}</p>
 				<p>{{row.updatedAt|date}}</p>
 				<div class="row center">

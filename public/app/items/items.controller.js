@@ -53,11 +53,19 @@ ngApp.lazy.controller('itemsCtrl', function($scope, $log, $http, $location, $rou
 		
 		vm.allObj = ItemFactory.query(getQueryString, function() {
 			vm.obj._group = MenuFactory.getGroupId();
+			vm.allObj.forEach(function(v){
+				v.description = urlify(v.description);
+			});
 			changeLoadingState();
 		}, function (error) {
 			$log.log ("Error: ", error);
 			changeLoadingState();
 		});
+	}
+
+	function urlify(text) {
+		var urlRegex = /(https?:\/\/[^\s]+)/g;
+		return text.replace(urlRegex, '<a class="description_link" href="$1" target="_blank" >Click to open this link</a>')
 	}
 
 	function update () {
