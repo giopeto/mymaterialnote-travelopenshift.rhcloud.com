@@ -1,73 +1,73 @@
 <div class="row" ng-controller="itemsCtrl as vm">
-    <div class="row center">
-        <h4 class="header col s12 light">
-            {{vm.thisGroup}}
-        </h4>
-        
-        <div class="input-field col s6 offset-s3">
-            <i class="material-icons prefix">search</i>
-            <input id="search" type="text" ng-model="vm.search" ng-change="vm.searchItems()" ng-model-options="{debounce: {'default': 500, 'blur': 0}}"/>
-            <label ng-class="vm.search?'active':''" for="search">  Search {{vm.thisGroup}}</label>
-        </div>
-       
-    </div>
+	<div class="row center">
+		<h4 class="header col s12 light">
+			{{vm.thisGroup}}
+		</h4>
+		
+		<div class="input-field col s6 offset-s3">
+			<i class="material-icons prefix">search</i>
+			<input id="search" type="text" ng-model="vm.search" ng-change="vm.searchItems()" ng-model-options="{debounce: {'default': 500, 'blur': 0}}"/>
+			<label ng-class="vm.search?'active':''" for="search">  Search {{vm.thisGroup}}</label>
+		</div>
+	   
+	</div>
 
-    <div class="row">
-        <div class="row center">
-            <button class="btn-floating btn-large waves-effect waves-light red">
-                <i class="material-icons" ng-click="vm.addEdit({})">add</i>
-            </button>
-            <br />
-        </div>
-    </div>
+	<div class="row">
+		<div class="row center">
+			<button class="btn-floating btn-large waves-effect waves-light red">
+				<i class="material-icons" ng-click="vm.addEdit({})">add</i>
+			</button>
+			<br />
+		</div>
+	</div>
 
-    <div class="progress" ng-if="vm.isLoading">
-        <div class="indeterminate"></div>
-    </div>
+	<div class="progress" ng-if="vm.isLoading">
+		<div class="indeterminate"></div>
+	</div>
 
-    <ul id="ulcollapse" class="collapsible popout">
-        <li id="licollapse" ng-repeat="row in vm.allObj">
-            <div class="collapsible-header teal lighten-3">
-                <p style="word-wrap: break-word">{{row.name}}</p>
-            </div>
-            <div class="collapsible-body teal lighten-1">
-                <p style="word-wrap: break-word">{{row.description}}</p>
-                <p>{{row._group.name}}</p>
-                <p>{{row.updatedAt|date}}</p>
-                <div class="row center">
-                    <button class="btn-floating btn-large waves-effect waves-light red">
-                        <i class="material-icons" ng-click="vm.addEdit(row)">edit</i>
-                    </button>
-                    <button class="btn-floating btn-large waves-effect waves-light red">
-                        <i class="material-icons" ng-click="vm.remove({_id: row._id, index: $index})">delete</i>
-                    </button>
-                </div>
-            </div>
-        </li>
-    </ul>
+	<ul id="ulcollapse" class="collapsible popout">
+		<li id="licollapse" ng-repeat="row in vm.allObj">
+			<div class="collapsible-header teal lighten-3">
+				<p style="word-wrap: break-word">{{row.name}}</p>
+			</div>
+			<div class="collapsible-body teal lighten-1">
+				<p style="word-wrap: break-word">{{row.description}}</p>
+				<p>{{row._group.name}}</p>
+				<p>{{row.updatedAt|date}}</p>
+				<div class="row center">
+					<button class="btn-floating btn-large waves-effect waves-light red">
+						<i class="material-icons" ng-click="vm.addEdit(row)">edit</i>
+					</button>
+					<button class="btn-floating btn-large waves-effect waves-light red">
+						<i class="material-icons" ng-click="vm.remove({_id: row._id, index: $index})">delete</i>
+					</button>
+				</div>
+			</div>
+		</li>
+	</ul>
 
 
 <!--    <div class="row">
-        <div class="col s12 m6" ng-repeat="row in vm.allObj">
-            <div class="card">
-                <div class="card-image">
-                    <img src="images/share-todo.jpg"> <span class="card-title">{{row.name}}</span>
-                </div>
-                <div class="card-content">
-                    <p>{{row.description}}</p>
-                    <p>{{row.updated|date}}</p>
-                </div>
-                <div class="card-action">
-                    <a href="" ng-click="vm.addEdit(row)">Edit</a>
-                    <a href="" ng-click="vm.remove({_id: row._id, index: $index})">Delete</a>
-                </div>
-            </div>
-        </div>
-        <br />
-    </div>-->
+		<div class="col s12 m6" ng-repeat="row in vm.allObj">
+			<div class="card">
+				<div class="card-image">
+					<img src="images/share-todo.jpg"> <span class="card-title">{{row.name}}</span>
+				</div>
+				<div class="card-content">
+					<p>{{row.description}}</p>
+					<p>{{row.updated|date}}</p>
+				</div>
+				<div class="card-action">
+					<a href="" ng-click="vm.addEdit(row)">Edit</a>
+					<a href="" ng-click="vm.remove({_id: row._id, index: $index})">Delete</a>
+				</div>
+			</div>
+		</div>
+		<br />
+	</div>-->
 
 
-    <!--<pre>{{vm | json}}</pre>-->
+	<!--<pre>{{vm | json}}</pre>-->
 </div>
 
 <script>$('.collapsible').collapsible();</script>

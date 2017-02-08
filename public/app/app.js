@@ -6,12 +6,12 @@ ngApp.config(function ($controllerProvider, $compileProvider, $filterProvider, $
 	$httpProvider.defaults.headers.common["X-Requested-With"] = 'XMLHttpRequest';
 	$locationProvider.html5Mode = true;
 	ngApp.lazy = {
-        controller: $controllerProvider.register,
-       	directive: $compileProvider.directive,
-        filter: $filterProvider.register,
-        factory: $provide.factory,
-        service: $provide.service
-    };
+		controller: $controllerProvider.register,
+		directive: $compileProvider.directive,
+		filter: $filterProvider.register,
+		factory: $provide.factory,
+		service: $provide.service
+	};
 
 	$routeProvider.when('/home', {
 		templateUrl: 'app/home/home.html',

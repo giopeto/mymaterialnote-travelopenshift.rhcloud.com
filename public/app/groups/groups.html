@@ -1,25 +1,25 @@
 <div class="row" ng-controller="groupsCtrl as vm">
 
-    <!--{{vm | json}}-->
-    <div class="progress" ng-if="vm.isLoading">
-        <div class="indeterminate"></div>
-    </div>
+	<!--{{vm | json}}-->
+	<div class="progress" ng-if="vm.isLoading">
+		<div class="indeterminate"></div>
+	</div>
 
-    <div class="row center">
-        <button class="btn-floating btn-large waves-effect waves-light red">
-            <i class="material-icons" ng-click="vm.addEdit({})">add</i>
-        </button>
-        <br />
-    </div>
+	<div class="row center">
+		<button class="btn-floating btn-large waves-effect waves-light red">
+			<i class="material-icons" ng-click="vm.addEdit({})">add</i>
+		</button>
+		<br />
+	</div>
 
-    <ul class="collection with-header">
-        <li class="collection-header"><h4>Groups</h4></li>
-        <li class="collection-item" ng-repeat="row in vm.allObj">
-            <div>
-                {{row.name}}
-                <a href="" ng-click="vm.addEdit(row)" class="secondary-content"><i class="material-icons">send</i></a>
-                <a href="" ng-click="vm.remove({_id: row._id, index: $index})" class="secondary-content"><i class="material-icons">delete</i></a>
-            </div>
-        </li>
-    </ul>
+	<ul class="collection with-header">
+		<li class="collection-header"><h4>Groups</h4></li>
+		<li class="collection-item" ng-repeat="row in vm.allObj">
+			<div>
+				{{row.name}}
+				<a href="" ng-click="vm.addEdit(row)" class="secondary-content"><i class="material-icons">send</i></a>
+				<a href="" ng-click="vm.remove({_id: row._id, index: $index})" class="secondary-content"><i class="material-icons">delete</i></a>
+			</div>
+		</li>
+	</ul>
 </div>

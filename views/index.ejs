@@ -3,48 +3,48 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+		content="width=device-width, initial-scale=1, maximum-scale=1.0" />
   <title>Materialize Note</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet">
+		rel="stylesheet">
   <link href="bower_components/materialize/dist/css/materialize.css" type="text/css" rel="stylesheet"
-        media="screen,projection" />
+		media="screen,projection" />
   <link href="stylesheets/style.css" type="text/css" rel="stylesheet"
-        media="screen,projection" />
+		media="screen,projection" />
 </head>
 <body ng-app="ngApp">
 
 <nav class="teal accent-4" role="navigation" ng-controller="menuCtrl as vm">
   <div class="nav-wrapper container">
-    <a id="logo-container" href="#note_add_edit" class="brand-logo">Material Note</a>
-    <ul id="not_logged" class="dropdown-content">
-      <li ><a href="#/users/signin"><i class="material-icons center text-darken-4 teal-text">assignment_ind</i><br/> <p class="center">Sign in</p></a></li>
-      <li ><a href="#/users/signup"><p class="center">Sign up</p></a></li>
-      <li class="divider"></li>
-      <li class="center"><a href="#/groups"><i class="material-icons center text-darken-4 teal-text">settings</i><br/> <p class="center">Manage Groups</p></a></li>
-    </ul>
-    <ul class="right hide-on-med-and-down">
-      <li ng-repeat="row in vm.allGroup"><a href="#/items_by_group_id/{{row._id}}">{{row.name}}</a></li>
-      <!--<li><a href="#/items">All Note ?? Really return all</a></li>-->
-      <!-- Dropdown Trigger -->
-      <li >
-        <a class="dropdown-button" href="#!" data-activates="not_logged">
-          User Settings<i class="material-icons right">arrow_drop_down</i>
-        </a>
-      </li>
-    </ul>
+	<a id="logo-container" href="#note_add_edit" class="brand-logo">Material Note</a>
+	<ul id="not_logged" class="dropdown-content">
+	  <li ><a href="#/users/signin"><i class="material-icons center text-darken-4 teal-text">assignment_ind</i><br/> <p class="center">Sign in</p></a></li>
+	  <li ><a href="#/users/signup"><p class="center">Sign up</p></a></li>
+	  <li class="divider"></li>
+	  <li class="center"><a href="#/groups"><i class="material-icons center text-darken-4 teal-text">settings</i><br/> <p class="center">Manage Groups</p></a></li>
+	</ul>
+	<ul class="right hide-on-med-and-down">
+	  <li ng-repeat="row in vm.allGroup"><a href="#/items_by_group_id/{{row._id}}">{{row.name}}</a></li>
+	  <!--<li><a href="#/items">All Note ?? Really return all</a></li>-->
+	  <!-- Dropdown Trigger -->
+	  <li >
+		<a class="dropdown-button" href="#!" data-activates="not_logged">
+		  User Settings<i class="material-icons right">arrow_drop_down</i>
+		</a>
+	  </li>
+	</ul>
 
-    <ul id="nav-mobile" class="side-nav" class="teal accent-4">
-      <li ng-repeat="row in vm.allGroup"><a href="#/items_by_group_id/{{row._id}}">{{row.name}}</a></li>
-      <li><a href="#/items">All Note</a></li>
-      <li ><a href="#/groups">All Groups</a></li>
-      <li ><a href="#/users/signup">Sign up</a></li>
-      <li ><a href="#/users/signin">Sign in</a></li>
-    </ul>
-    <a href="#" data-activates="nav-mobile" class="button-collapse"><i
-              class="material-icons">menu</i></a>
+	<ul id="nav-mobile" class="side-nav" class="teal accent-4">
+	  <li ng-repeat="row in vm.allGroup"><a href="#/items_by_group_id/{{row._id}}">{{row.name}}</a></li>
+	  <li><a href="#/items">All Note</a></li>
+	  <li ><a href="#/groups">All Groups</a></li>
+	  <li ><a href="#/users/signup">Sign up</a></li>
+	  <li ><a href="#/users/signin">Sign in</a></li>
+	</ul>
+	<a href="#" data-activates="nav-mobile" class="button-collapse"><i
+			  class="material-icons">menu</i></a>
   </div>
 </nav>
 
@@ -54,20 +54,20 @@
 <div class="full h30"></div>
 <main>
   <div class="container">
-    <div class="section">
-      <div ng-view class="mh40"></div>
-    </div>
-    <br>
-    <br>
+	<div class="section">
+	  <div ng-view class="mh40"></div>
+	</div>
+	<br>
+	<br>
   </div>
 </main>
 
 <div class="full h30"></div>
 <footer class="page-footer teal accent-3">
   <div class="footer-copyright">
-    <div class="container">
-      <p>&copy;  2016. Material Note.</p>
-    </div>
+	<div class="container">
+	  <p>&copy;  2016. Material Note.</p>
+	</div>
   </div>
 </footer>
 
