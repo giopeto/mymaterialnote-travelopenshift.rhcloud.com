@@ -6,6 +6,7 @@ ngApp.lazy.controller('itemsCtrl', function($scope, $log, $http, $location, $rou
     var vm = this;
     vm.isLoading = false;
     vm.thisGroup = "";
+    vm.search = "";
     vm.obj = {};
     vm.allObj = [];
     vm.allGroup = GroupFactory.query({userId: MenuFactory.getUser()._id}, function(){
@@ -26,6 +27,7 @@ ngApp.lazy.controller('itemsCtrl', function($scope, $log, $http, $location, $rou
     vm.addEdit = addEdit;
     vm.remove = remove;
     vm.goBack = goBack;
+    vm.searchItems = searchItems;
 
     function save () {
         changeLoadingState();
@@ -35,18 +37,28 @@ ngApp.lazy.controller('itemsCtrl', function($scope, $log, $http, $location, $rou
             $log.log("Error: ", error);
             changeLoadingState();
         });
-    };
+    }
 
-    function get () {
+    function get (args) {
         changeLoadingState();
-        vm.allObj = ItemFactory.query({groupId: $routeParams.groupId, userId: MenuFactory.getUser()._id}, function() {
+        var getQueryString = {
+            groupId: $routeParams.groupId,
+            userId: MenuFactory.getUser()._id
+        };
+        if(args && args.filter && Object.keys(args.filter).length>0){
+            Object.keys(args.filter).forEach(function(k){
+                getQueryString[k] = args.filter[k];
+            });
+        }
+        $log.log(getQueryString);
+        vm.allObj = ItemFactory.query(getQueryString, function() {
             vm.obj._group = MenuFactory.getGroupId();
             changeLoadingState();
         }, function (error) {
             $log.log ("Error: ", error);
             changeLoadingState();
         });
-    };
+    }
 
     function update () {
         changeLoadingState();
@@ -57,7 +69,7 @@ ngApp.lazy.controller('itemsCtrl', function($scope, $log, $http, $location, $rou
             $log.log("Error: ", error);
             changeLoadingState();
         });
-    };
+    }
 
     function remove (args) {
 
@@ -72,12 +84,12 @@ ngApp.lazy.controller('itemsCtrl', function($scope, $log, $http, $location, $rou
                 changeLoadingState();
             });
         }
-    };
+    }
 
     function addEdit (args){
         var id = args._id ? args._id : 0;
         $location.path('/items_add_edit/'+id);
-    };
+    }
 
     function goBack () {
         if (MenuFactory.getGroupId()) {
@@ -86,11 +98,15 @@ ngApp.lazy.controller('itemsCtrl', function($scope, $log, $http, $location, $rou
             $location.path('/items');
         }
 
-    };
+    }
+
+    function searchItems(){
+        get({filter: {name: vm.search}});
+    }
 
     function changeLoadingState(){
         vm.isLoading = !vm.isLoading;
-    };
+    }
 
     if ($routeParams.groupId && $routeParams.groupId != 0) {
         MenuFactory.setGroupId($routeParams.groupId);

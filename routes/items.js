@@ -8,12 +8,15 @@ var Items = require('../models/items');
 router.get('/items', function(req, res, next) {
 
     var groupId = req.query.groupId;
-    var qStr = "";
+    var name = req.query.name;
+    var queryHash = {};
     if (groupId) {
-        qStr = {_group: groupId};
+        queryHash._group =groupId;
     }
-
-    Items.find(qStr).sort('-updatedAt').populate("_group").exec(function(err, data) {
+    if (name) {
+        queryHash.name = name;
+    }
+    Items.find(queryHash).sort('-updatedAt').populate("_group").exec(function(err, data) {
         if (err)
             res.send(err);
         res.json(data);
